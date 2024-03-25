@@ -12,6 +12,12 @@ public class BookRunner {
 		effectiveJava.setNoOfCopies(50);
 		cleanCode.setNoOfCopies(45);
 
+		System.out.println(
+				"The number of copies of Art of Compuer Programming is: " + artOfComputerProgramming.getNoOfCopies());
+		System.out.println("The number of copies of Effective Java is: " + effectiveJava.getNoOfCopies());
+		System.out.println("The number of copies of Clean Code is: " + cleanCode.getNoOfCopies());
+		System.out.println("---------------------------------------------");
+		
 		artOfComputerProgramming.increaseNoOfCopies(100);
 		effectiveJava.increaseNoOfCopies(50);
 		cleanCode.increaseNoOfCopies(45);
@@ -24,6 +30,7 @@ public class BookRunner {
 				"The number of copies of Art of Compuer Programming is: " + artOfComputerProgramming.getNoOfCopies());
 		System.out.println("The number of copies of Effective Java is: " + effectiveJava.getNoOfCopies());
 		System.out.println("The number of copies of Clean Code is: " + cleanCode.getNoOfCopies());
+		System.out.println("---------------------------------------------");
 
 	}
 
