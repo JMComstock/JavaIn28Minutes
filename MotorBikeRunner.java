@@ -6,9 +6,11 @@ public class MotorBikeRunner {
 
 		MotorBike ducati = new MotorBike(100);
 		MotorBike honda = new MotorBike(200);
+		MotorBike suzuki = new MotorBike();
 
 		System.out.println("The initial speed of the ducati is: " + ducati.getSpeed());
 		System.out.println("The initial speed of the honda is: " + honda.getSpeed());
+		System.out.println("The initial speed of the honda is: " + suzuki.getSpeed());
 		
 		ducati.start();
 		honda.start();
@@ -23,6 +25,7 @@ public class MotorBikeRunner {
 
 		System.out.println("The speed of the ducati is: " + ducati.getSpeed());
 		System.out.println("The speed of the honda is: " + honda.getSpeed());
+		System.out.println("The initial speed of the honda is: " + suzuki.getSpeed());
 
 	}
 

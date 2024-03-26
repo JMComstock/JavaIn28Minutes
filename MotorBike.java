@@ -5,6 +5,10 @@ public class MotorBike {
 	// state
 	private int speed; // member variable
 	
+	MotorBike() {
+		this(5);
+	}
+	
 	MotorBike(int speed) {
 		this.speed = speed;
 	}
@@ -29,7 +33,6 @@ public class MotorBike {
 	}
 
 	public void decreaseSpeed(int howMuch) {
-
 		setSpeed(this.speed - howMuch);
 	}
 }
